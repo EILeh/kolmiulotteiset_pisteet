@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1700138328 source:c:\users\elli\documents\yliopisto\2. vuosi\2023-2024\1.-2. periodi\ohjelmoinnin tekniikka c\osa 2\kolmiulotteiset_pisteet\main.c
+	<stdio.h>
+	<stdlib.h>
+	"piste3d.h"
+
+1700138167 c:\users\elli\documents\yliopisto\2. vuosi\2023-2024\1.-2. periodi\ohjelmoinnin tekniikka c\osa 2\kolmiulotteiset_pisteet\piste3d.h
+

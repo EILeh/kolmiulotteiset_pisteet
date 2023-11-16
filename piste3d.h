@@ -2,13 +2,15 @@
 #define PISTE3D_H_INCLUDED
 
 struct Piste3D {
-    double x,
-    double y,
-    double z
+    double x;
+    double y;
+    double z;
 };
 
-double etaisyys(double piste1, double piste2);
+typedef struct Piste3D Piste3D;
 
-void tulosta(double pisteet, int tarkkuus);
+double etaisyys(Piste3D piste1, Piste3D piste2);
+
+void tulosta(Piste3D pisteet, int tarkkuus);
 
 #endif

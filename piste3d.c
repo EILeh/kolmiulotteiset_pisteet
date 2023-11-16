@@ -1,17 +1,21 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 #include "piste3d.h"
 
-double etaisyys(double piste1, double piste2)
+double etaisyys(Piste3D piste1, Piste3D piste2)
 {
-
+    printf("\n");
 
 
 
 }
 
-void tulosta(double pisteet, int tarkkuus)
+void tulosta(Piste3D pisteet, int tarkkuus)
 {
+
+    printf("(%.*lf, %.*lf, %.*lf)",
+           tarkkuus, pisteet.x, tarkkuus, pisteet.y, tarkkuus, pisteet.z);
 
 
 }
