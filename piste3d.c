@@ -5,7 +5,11 @@
 
 double etaisyys(Piste3D piste1, Piste3D piste2)
 {
-    printf("\n");
+    double xLasku = pow((piste1.x - piste2.x), 2);
+    double yLasku = pow((piste1.y - piste2.y), 2);
+    double zLasku = pow((piste1.z - piste2.z), 2);
+    double kaava = sqrt(xLasku + yLasku + zLasku);
+    return kaava;
 
 
 
@@ -14,7 +18,7 @@ double etaisyys(Piste3D piste1, Piste3D piste2)
 void tulosta(Piste3D pisteet, int tarkkuus)
 {
 
-    printf("(%.*lf, %.*lf, %.*lf)",
+    printf("(%.*f, %.*f, %.*f)",
            tarkkuus, pisteet.x, tarkkuus, pisteet.y, tarkkuus, pisteet.z);
 
 
